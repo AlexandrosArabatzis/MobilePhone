@@ -1,6 +1,6 @@
 # Mobile Phone
 
-This is a Mobile Phone Application. It can store, modify, remove and query contact names. There is a Contacts and a MobilePhone class. The MobilePhone class is the master class and provides all the functionality. The Mobile Phone stores the contacts in an ArrayList, but the inner workings of the ArrayList are not exposed. 
+This is a Mobile Phone Application. It can store, modify, remove and query contact names. There is a Contact and a MobilePhone class. The MobilePhone class is the master class and provides all the functionality. The Mobile Phone stores the contacts in an ArrayList, but the inner workings of the ArrayList are not exposed. 
 
 
 
