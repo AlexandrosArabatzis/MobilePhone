@@ -48,19 +48,6 @@ public class MobilePhone {
         return true;
     }
 
-    private int findContact(Contact contact) {
-        return this.myContacts.indexOf(contact);
-    }
-
-    private int findContact(String contactName) {
-        for(int i=0; i<this.myContacts.size(); i++) {
-            Contact contact = this.myContacts.get(i);
-            if(contact.getName().equals(contactName)) {
-                return i;
-            }
-        }
-        return -1;
-    }
 
     public String queryContact(Contact contact) {
         if(findContact(contact) >=0) {
@@ -87,4 +74,18 @@ public class MobilePhone {
         }
 
     }
+    
+    private int findContact(Contact contact) {
+        return this.myContacts.indexOf(contact);
+    }
+
+    private int findContact(String contactName) {
+        for(int i=0; i<this.myContacts.size(); i++) {
+            Contact contact = this.myContacts.get(i);
+            if(contact.getName().equals(contactName)) {
+                return i;
+            }
+        }
+        return -1;
+    }   
 }
